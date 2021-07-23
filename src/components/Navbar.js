@@ -1,43 +1,51 @@
-import React from 'react'
-import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui'
+import React from 'react';
+import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui';
 import 'react-sidebar-ui/dist/index.css';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
-      <Sidebar bgColor='black' isCollapsed={false}>
+        <div>
+      <Sidebar bgColor='black' isCollapsed={true}>
         <Logo
-          image='https://media2.giphy.com/media/eNAsjO55tPbgaor7ma/source.gif'
+          image=''
           imageName='react logo'/>
-        <LogoText>React Sidebar UI</LogoText>
-        <DropdownItem
-          values={['First', 'Second', 'Third']}
-          bgColor={'black'}>
-          Menu
-        </DropdownItem>
-
-        <Item bgColor='black'>
+        <LogoText>Lillie Jirapattanalak</LogoText>
+      <NavLink to="/">
+      <Item bgColor='black'>
           <Icon><i className="fas fa-home"/></Icon>
           Home
         </Item>
+      </NavLink>
+
+        <NavLink to="/about">
         <Item bgColor='black'>
           <Icon><i className="fas fa-info"/></Icon>
-          About
+          About Me
         </Item>
-        <Item bgColor='black'>
+        </NavLink>
+       
+       <NavLink to="/project">
+       <Item bgColor='black'>
           <Icon><i className="fas fa-sitemap"/></Icon>
-          My Website
+          Projects
           </Item>
+       </NavLink>
+
+        <NavLink to="/contact">
         <Item bgColor='black'>
           <Icon><i className="far fa-address-book"/></Icon>
-          Contacts
+          Contact
         </Item>
+        </NavLink>
+
         <Item bgColor='black'>
           <Icon><i className="fas fa-rss-square"/></Icon>
-          Blog
+          Resume
         </Item>
-        <InputItem type='text' placeholder={'Search...'}/>
       </Sidebar>
+      </div>
     </div>
   )
 };
