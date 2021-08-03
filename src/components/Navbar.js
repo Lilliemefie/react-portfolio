@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import '../style/Navbar.css';
 
 export default function Navbar () {
   return (
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+<nav className="navbar navbar-expand-lg navbar-light bg-white">
   <div className="container-fluid">
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
@@ -26,7 +28,7 @@ export default function Navbar () {
     </div>
   </div>
 </nav>
-    
+</header>
   )
 };
 
