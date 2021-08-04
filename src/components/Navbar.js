@@ -18,7 +18,7 @@ export default function Navbar () {
         <li className="nav-item"><NavLink to="/project" className="nav-link">PROJECT</NavLink></li>
         <li className="nav-item"><NavLink to="/contact" className="nav-link">CONTACT</NavLink></li>
         <li className="nav-item"> <a className="nav-link" href="https://drive.google.com/file/d/1rVZOqBVKmUdHKdNEUxb2TzAyHa2rOQI3/view?usp=sharing"
-         target="_blank">RESUME</a></li>
+         target="_blank" rel="noreferrer" >RESUME</a></li>
       </ul>
     </div>
   </div>

@@ -5,11 +5,12 @@
     border-radius: 2%;
    height: 325px;
   }
-
   .cardone {
       border: 1px dotted red;
+      margin-bottom: 30px;
+  }
+
+  .row {
+      margin-bottom: 20px;
   }
  
-  .row {
-      margin-bottom: 80px;
-  }

@@ -1,3 +1,20 @@
+
 .content{
-padding-top: 25px;
+padding-top: 50px;
 }
+
+.aboutpic {
+    border-radius: 50%;
+    width: 400px;
+    position: absolute;
+    right: 0;
+  opacity: 0.15;
+  z-index: -1;
+  }
+
+
+  .aboutimg{
+    width: 65%;
+    margin-bottom: 25px; 
+
+  }

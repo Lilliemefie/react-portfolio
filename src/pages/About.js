@@ -10,6 +10,7 @@ export default function About (){
           <div className="col-sm-8 text-left aboutme"> 
             <h1> About Lillie</h1>
             <br />
+            <img src="https://github.com/Lilliemefie/react-portfolio/blob/main/src/assets/lillie%20avatar.PNG?raw=true" alt="profile" className="aboutpic" />
             <p className="card-text">My name is Lillie and I am a student at UCLA Extension’s Full Stack Development
                     Program – 3 months full-time
                     immersive program bootcamp which expect to graduate in July 2021. I am looking for new opportunities
@@ -25,6 +26,7 @@ export default function About (){
                     mountain, or in the kitchen trying out new cooking recipes.</p>
             <hr />
             <div className="container-fluid text-center">
+                <br />
   <h3>SKILLS</h3>
   <h5>What do I do?</h5>
   <br />
@@ -35,7 +37,7 @@ export default function About (){
           </div>
           <div className="row">
     <div className="col-m-8">
-    <img src="https://github.com/Lilliemefie/react-portfolio/blob/main/src/assets/lillie%20avatar.PNG?raw=true" alt="profile" className="profilepic" />
+    <img src="https://github.com/Lilliemefie/react-portfolio/blob/main/src/assets/aboutImg.JPG?raw=true" alt="profile" className="aboutimg" />
     </div>
     </div>
             </div>
