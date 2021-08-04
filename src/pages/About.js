@@ -11,17 +11,14 @@ export default function About (){
             <h1> About Lillie</h1>
             <br />
             <img src="https://github.com/Lilliemefie/react-portfolio/blob/main/src/assets/lillie%20avatar.PNG?raw=true" alt="profile" className="aboutpic" />
-            <p className="card-text">My name is Lillie and I am a student at UCLA Extension’s Full Stack Development
-                    Program – 3 months full-time
-                    immersive program bootcamp which expect to graduate in July 2021. I am looking for new opportunities
+            <p className="card-text">My name is Lillie and I graduated from the University of California, Los Angeles with Full Stack Development
+                    Certificate – 3 months full-time immersive program bootcamp. I am looking for new opportunities
                     to practice and develop my skills.</p>
                 <p className="card-text">I have had a passion in web design since I was young, I wrote the online diary and
-                    felt like the page’s look was so
-                    boring, so I tried to find the way how to make its nicer. Therefore, I had a chance to adjust the
+                    felt like the page’s look was so boring, so I tried to find the way how to make its nicer. Therefore, I had a chance to adjust the
                     code on the template.
                     At that time, I did not know much about HTML, CSS, etc. But I knew that I was enjoys doing it. Now I
-                    am learning and
-                    eager to learn more.</p>
+                    am learning and eager to learn more.</p>
                 <p className="card-text">When I am not studying or working, you can find me at the beach or, at the
                     mountain, or in the kitchen trying out new cooking recipes.</p>
             <hr />
