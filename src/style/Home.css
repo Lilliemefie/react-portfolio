@@ -9,7 +9,7 @@
     margin: 30px;
   }
   .typingeffect {
-    font-size: 3rem;
+    font-size: 200%;
     margin-bottom: 20px;
     color: #212121;
   }
@@ -17,4 +17,5 @@
   .hometext{
     text-align: center;
     color: #212121;
+    margin-bottom: 50px;
   }
