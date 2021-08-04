@@ -13,12 +13,11 @@ function App() {
       <Navbar />
       
       <Switch>
-        <Route exact path="/react-portfolio" component={Home} />
+        <Route exact path="/react-portfolio" component={Home}/>
         <Route exact path="/" component={Home}/>
-        <Route  path="/home" component={Home}/>
-        <Route  path="/about" component={About} />
-        <Route  path="/project" component={Project} />
-        <Route  path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/project" component={Project} />
+        <Route path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </BrowserRouter>
