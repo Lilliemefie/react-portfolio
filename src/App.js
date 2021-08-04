@@ -9,9 +9,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Navbar />
+      
       <Switch>
+        <Route exact path="/react-portfolio" component={Home} />
         <Route exact path="/" component={Home}/>
         <Route  path="/home" component={Home}/>
         <Route  path="/about" component={About} />
