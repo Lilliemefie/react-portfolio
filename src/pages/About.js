@@ -26,7 +26,7 @@ export default function About (){
             <hr />
             <div className="container-fluid text-center">
   <h3>SKILLS</h3>
-  <h5>What I do</h5>
+  <h5>What do I do?</h5>
   <br />
   <div className="row">
     <div className="col-m-8">
