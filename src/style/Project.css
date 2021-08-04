@@ -3,7 +3,7 @@
 }
 .card-img-top {
     border-radius: 2%;
-    height: 100%;
+    width:100%;
   }
   .cardone {
       border: 1px white;

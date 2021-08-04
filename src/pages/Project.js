@@ -61,7 +61,7 @@ export default function Project (){
         <p className="card-text"></p>
         <div className="btnstyle">
         <a href="https://github.com/Lilliemefie/workout-tracker" className="btn btn-outline-warning">GITHUB</a>
-        <a href="https://everyday-workout-tracker.herokuapp.com" className="btn bbtn-outline-success">DEPLOYED SITE</a>
+        <a href="https://everyday-workout-tracker.herokuapp.com" className="btn btn-outline-success">DEPLOYED SITE</a>
       </div>
   </div>
 </div>
